@@ -1,6 +1,4 @@
-name = ""
-type = "javascript"
-account_id = ""
-workers_dev = true
-route = ""
-zone_id = ""
+name = "mon-worker"                    # Remplace par le nom de ton Worker
+compatibility_date = "2025-08-18"     # Date de compatibilité, à jour
+main = "dist/index.js"                 # Fichier JS généré par la transpilation PHP
+workers_dev = true                     # Déploiement sur workers.dev
